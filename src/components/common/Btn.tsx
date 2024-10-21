@@ -1,4 +1,3 @@
-import React from "react";
 import { BtnProps } from "../../entities";
 
 const Btn = ({ icon, text, styling, position = 'left' }: BtnProps) => {

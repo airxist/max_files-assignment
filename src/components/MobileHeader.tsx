@@ -9,15 +9,15 @@ const MobileHeader = () => {
   const username = "Damisola Odusola";
   return (
     <header className="mobile-header">
-      <MobileLogo styling="h-full flex-center w-[78px] border-2" />
+      <MobileLogo styling="h-full flex-center w-[78px]" />
 
-      <div className="h-full flex-1 flex items-center px-3 justify-between border-2">
+      <div className="h-full flex-1 flex items-center px-3 justify-between">
         <Btn
           icon={<Menu width={20} height={32} />}
-          styling="bg-tranparent w-5 h-8 border"
+          styling="bg-tranparent w-5 h-8"
         />
 
-        <div className="flex items-center justify-around border gap-x-2">
+        <div className="flex items-center justify-around gap-x-2">
           <Btn
             icon={<SearchIcon width={20} height={32} />}
             styling="bg-transparent"

@@ -1,9 +1,7 @@
-import React from "react";
 import { DesktopLogo } from "./Logo";
 import Btn from "./common/Btn";
 import { icons } from "../constants";
 import HeaderSwitch from "./HeaderSwitch";
-import FormInput from "./form/FormInput";
 import SearchBar from "./SearchBar";
 
 const { Menu } = icons;
@@ -25,8 +23,8 @@ const DesktopHeader = () => {
           styling="bg-blue font-bold h-10 flex-center px-1 rounded-md text-[18px]"
         />
 
-        <div className="flex items-center justify-around gap-x-5 w-[70%] border-8">
-          <SearchBar styling="flex-center gap-x-5 h-10 flex-1 border border-red-500" />
+        <div className="flex items-center justify-around gap-x-5 w-[70%]">
+          <SearchBar styling="flex-center gap-x-5 h-10 flex-1" />
 
           <Btn
             styling="bg-blue font-bold h-10 flex-center px-1 rounded-md text-[18px]"

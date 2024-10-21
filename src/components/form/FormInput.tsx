@@ -1,4 +1,3 @@
-import React from "react";
 import { FormInputProps } from "../../entities";
 
 const FormInput = ({
